@@ -119,7 +119,6 @@ const RegisterForm = ({ user }: { user: User }) => {
             <h2 className="sub-header">Personal Information</h2>
           </div>
 
-          {/* NAME */}
 
           <CustomFormField
             fieldType={FormFieldType.INPUT}
@@ -130,7 +129,6 @@ const RegisterForm = ({ user }: { user: User }) => {
             iconAlt="user"
           />
 
-          {/* EMAIL & PHONE */}
           <div className="flex flex-col gap-6 xl:flex-row">
             <CustomFormField
               fieldType={FormFieldType.INPUT}
